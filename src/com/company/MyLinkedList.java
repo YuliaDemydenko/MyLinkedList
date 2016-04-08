@@ -364,10 +364,12 @@ public class MyLinkedList<T> implements List<T> {
         }
 
         public int previousIndex(){
+            previous();
             return nextIndex-1;
         }
 
         public int nextIndex(){
+            previous();
             return nextIndex;
         }
     }
