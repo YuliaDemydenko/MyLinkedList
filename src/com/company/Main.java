@@ -28,7 +28,6 @@ public class Main {
         System.out.println(list);
         System.out.println(list.getFirst());
         System.out.println(list.getLast());
-        System.out.println(list.indexOf(10));
         list.remove(0);
         list.remove(list.size() - 1);
         System.out.println(list);
